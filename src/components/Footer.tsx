@@ -38,7 +38,7 @@ const Footer: React.FC<IFooter> = ({state, handleState, setReservation, reservat
       <FooterComp>
          <h2>추가 사항(옵션)</h2>
          <div className="textarea-box">
-         <textarea placeholder="평소 앓고 있던 질병, 또는 초방전 솔닥 닥터가 알아야 할 내용이 있다면 여기에 적어주세요."
+         <textarea placeholder="평소 앓고 있던 질병, 또는 처방전 솔닥 닥터가 알아야 할 내용이 있다면 여기에 적어주세요."
                    value={value}
                    onChange={onChangeValue}
                    ref={inputRef}

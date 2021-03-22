@@ -117,7 +117,10 @@ export const DayTimeComp = styled.section`
    position: absolute;
    border:none;
    padding:0;
-   color:rgba(0,0,0,0.4)
+   color:rgba(0,0,0,0.4);
+   &:hover{
+    border:none;
+   }
   }
   }
   

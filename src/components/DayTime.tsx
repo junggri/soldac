@@ -77,7 +77,7 @@ const DayTime: React.FC<IDayTime> = ({handleState, reservation, changeClickedBtn
          </div>
          {!reservation &&
          <div className="time__item-container">
-            {canReservation ? time.current.map(e => (
+            {canReservation ? time.current.map((e, i) => (
                <div onClick={onChangeState} key={e} style={makeStyle(e)}>
                   <span>{e}</span>
                </div>
